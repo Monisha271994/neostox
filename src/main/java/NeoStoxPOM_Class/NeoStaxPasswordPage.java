@@ -19,11 +19,13 @@ public class NeoStaxPasswordPage {
 		passwordInputField.sendKeys(password);
 		Reporter.log("enter the password", true);
 	}
+
+	
 	
 	public void ClickOnSubmit(WebDriver driver ) {
 		ClickOnSubmitButton.click();
 		Reporter.log("click on submit button", true);
-		
+		System.out.println("hiiii");
 	}
 
 }
